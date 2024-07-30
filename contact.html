@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact - Vintage Fork</title>
+</head>
+
+<body>
+    <header>
+        <h1>The Vintage Fork Diner</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <form action="http://ctec.clark.edu/CTEC122/scripts/form_echo.php">
+            <p>First name: <input type="text" name="first" placeholder="Enter First Name Here."></p>
+            <p>Last name: <input type="text" name="last" placeholder="Enter Last Name Here"></p>
+            <p>Email: <input type="text" name="email" placeholder="example@example.com"></p>
+            <p>Reason for Contacting:</p>
+            <p><input type="radio" name="contact" value="Issue"> An Issue</p>
+            <p><input type="radio" name="contact" value="Suggestion"> Suggestion</p>
+            <p><input type="radio" name="contact" value="General"> General</p>
+            <p>What State?</p>
+            <select name="State">
+                <optgroup label="State">
+                <option value="Washington">Washington</option>
+                <option value="Oregon">Oregon</option>
+                <option value="California">California</option>
+                <option value="Idaho">Idaho</option>
+                <option value="Ohio">Ohio</option>
+            </select>
+            <p>What would you like to contact about:</p>
+            <textarea name="contact" placeholder="What would you like to tell us?">
+            </textarea>
+            <br><input type="submit" id="button" value="Send">
+            <input type="reset" id="reset">
+        </form>
+    </main>
+
+    <aside>
+        <h2>Further Information</h2>
+        <p>If you need to contact us in any about any sponsoring events, you can email us here below:</p>
+        <a href="mailto:VintageForkSupport@gmail.com">VintageForkSupport@gmail.com</a>
+        <p>Or you can call us at <a href="tel:+0000000000">000-000-0000</a></p>
+    </aside>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Copyright &copy; 2024 by Kirill Zhurbytskyy</p>
+    </footer>
+</body>
+
+</html>
